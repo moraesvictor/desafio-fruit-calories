@@ -12,7 +12,7 @@ Escopo:
 ⦁ Utilizar os dados das 60 frutas que estão disponíveis na API: http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json
 ⦁ Será necessário exibir todas as informações de cada fruta disponíveis na API, como: Nome, Calorias, Proteína, Carboidratos, Fibra, Gordura e Porção.
 ⦁ Será necessário exibir as fotos das 60 frutas as quais as url's de cada imagem estão disponíveis na API.
-⦁ O layout com as informações de cada fruta, pode seguir o padrão de lista ou cards(não poderá ser feito no formato de tabela)
+⦁ O layout com as informações de cada fruta, pode seguir o padrão de lista ou cards(não poderá ser feito no formato de tabela) 
 
 ⦁ Implementar Tela de Detalhes da fruta.
 ⦁ Nesta tela, será necessário exibir a foto da fruta.
