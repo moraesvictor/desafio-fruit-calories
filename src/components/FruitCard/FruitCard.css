@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  background-color: #ffff;
+  border-radius: 8px;
+  border: 1px solid black;
+  height: 72px;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 25vw;
+  padding: 8px;
+}
+
+.title {
+  font-family: fantasy;
+  color: black;
+  font-size: 1.9em;
+}
+
+.img {
+  height: 72px;
+  margin-left: 8px;
+}
+
+.description {
+  color: #0000;
+}

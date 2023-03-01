@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import { APIProvider } from './services/context';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { DETAIL_CARD, HOME } from './Routes/Routes';
+import { Home } from './views/Home';
+import { FruitDetails } from './views/FruitDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <APIProvider>
+      <Router>
+        <Routes>
+          <Route path={HOME} element={<Home />} />
+          <Route path={DETAIL_CARD} element={<FruitDetails />} />
+        </Routes>
+      </Router>
+    </APIProvider>
   );
 }
 

@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  background-color: rgb(205, 255, 205);
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    font-size: 1.5em;
+  }
+}

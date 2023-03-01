@@ -1,0 +1,16 @@
+.card-details-wrapper {
+  display: block;
+  justify-content: center;
+  border: 1px solid black;
+  width: 150px;
+  padding: 4px;
+  margin-left: 45%;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-details-wrapper {
+    margin-left: 30%;
+  }
+}
