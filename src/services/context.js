@@ -12,8 +12,6 @@ export const APIProvider = ({ children }) => {
 
   const handleSelectFruitClick = (fruit) => setSelectedFruit(fruit);
 
-  console.log(fruit);
-
   const fetchData = () => {
     return fetch(
       'http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json',
