@@ -12,7 +12,7 @@ export const CardList = () => {
   const { fruits, handleSelectFruitClick } = useContext(APIContext);
 
   return (
-    <Link to={DETAIL_CARD}>
+    <Link style={{ textDecorationLine: 'none' }} to={DETAIL_CARD}>
       <div className="list">
         {fruits.map((fruit, index) => (
           <FruitCard

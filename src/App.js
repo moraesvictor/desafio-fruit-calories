@@ -7,14 +7,16 @@ import { FruitDetails } from './views/FruitDetails';
 
 function App() {
   return (
-    <APIProvider>
-      <Router>
-        <Routes>
-          <Route path={HOME} element={<Home />} />
-          <Route path={DETAIL_CARD} element={<FruitDetails />} />
-        </Routes>
-      </Router>
-    </APIProvider>
+    <div className="app">
+      <APIProvider>
+        <Router>
+          <Routes>
+            <Route path={HOME} element={<Home />} />
+            <Route path={DETAIL_CARD} element={<FruitDetails />} />
+          </Routes>
+        </Router>
+      </APIProvider>
+    </div>
   );
 }
 
