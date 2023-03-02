@@ -7,9 +7,9 @@ export const FruitDetails = () => {
   const { fruit } = useContext(APIContext);
 
   return (
-    <>
+    <div style={{ height: '100vh' }}>
       <Header />
       <CardDetails info={fruit} />
-    </>
+    </div>
   );
 };
