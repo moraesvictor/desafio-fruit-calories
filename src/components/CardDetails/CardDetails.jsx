@@ -1,7 +1,6 @@
 import './CardDetails.css';
 
 /* eslint-disable react/jsx-key */
-/* eslint-disable react/prop-types */
 export const CardDetails = ({ info }) => {
   const keys = Object.keys(info).filter(
     (item) => item !== 'name' && item !== 'photo',
