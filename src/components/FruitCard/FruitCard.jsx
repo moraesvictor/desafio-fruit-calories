@@ -1,7 +1,10 @@
 import './FruitCard.css';
 
 /**
- * Card que renderiza o nome e a imagem da fruta.
+ * Componente que renderiza um card que onde há o nome e a imagem da fruta.
+ * @param fruitName - Nome da fruta
+ * @param onClick - função responsável por determinar alguma ação no click do card.
+ * @param img - URL da imagem a ser renderizada no card
  */
 export const FruitCard = ({ fruitName, onClick, img }) => {
   return (
