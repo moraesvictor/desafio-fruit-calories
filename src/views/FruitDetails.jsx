@@ -3,6 +3,9 @@ import { CardDetails } from '../components/CardDetails/CardDetails.jsx';
 import { APIContext } from '../services/context';
 import { useContext } from 'react';
 
+/**
+ * Componente responsável por renderizar a view de detalhamento das frutas
+ */
 export const FruitDetails = () => {
   const { fruit } = useContext(APIContext);
 

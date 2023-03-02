@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { DETAIL_CARD } from '../../Routes/Routes';
 
 /**
- * Componente responsável pela renderização da listagem de frutas com seu nome e descrição
+ * Componente responsável pela renderização da listagem dos cards das frutas
  */
 export const CardList = () => {
   const { fruits, handleSelectFruitClick } = useContext(APIContext);
